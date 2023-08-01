@@ -107,7 +107,3 @@ p {
 .mt-5 {
   text-align: center;
 }
-
-@media (min-width: 992px) h1 {
-  font-size: 72;
-}
