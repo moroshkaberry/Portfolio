@@ -98,12 +98,25 @@ p {
   border-radius: 4px;
   padding: 20px 15px;
 }
+.mt-5 {
+  text-align: center;
+}
 
 @media (min-width: 992px) .navbar-expand-lg {
   flex-wrap: nowrap;
   justify-content: flex-start;
 }
 
-.mt-5 {
-  text-align: center;
+@media (max-width: 991px) {
+  h1 {
+    font-size: 56px !important;
+  }
+  .img-fluid {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .primary-link {
+    margin-bottom: 20px;
+  }
 }
